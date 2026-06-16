@@ -10,23 +10,23 @@
 - [x] IE + AI narrative in About and How I work
 - [x] README deploy instructions
 - [x] `context.md`
+- [x] Featured projects (4) with SVG previews, outcome lines, and compact list for remaining 8
+- [x] Sticky anchor nav, shortened hero, View projects CTA
+- [x] SEO: favicon, OG/Twitter meta, canonical, JSON-LD, `robots.txt`, `sitemap.xml`
+- [x] Accessibility: skip link, focus-visible, lazy images with alt text
+- [x] NDA tags on private projects
 
 ## Next steps
 
-- [ ] Initialize git and push to `github.com/Amirlabai/portfolio`
-- [ ] Enable GitHub Pages (main / root)
-- [ ] Verify live URL and all 15 GitHub links
+- [ ] Confirm GitHub Pages enabled (Settings → Pages → main / root) if not already
+- [ ] Verify live URL after deploy: https://amirlabai.github.io/portfolio/
+- [ ] Replace SVG previews with real WebP screenshots from live demos when convenient
+- [ ] Optional: custom domain, resume PDF link
 
-## Project list (v1)
+## Project list (v2)
 
-Audit: Continuous-Monitoring, task-canopy, IACSLWrapper, Bundle_script (DMR³)
+Featured: ramadan-tournament, iron-sight, sqwash-pdf, pixelate-subject
 
-AI: ramadan-tournament, iron-sight, RAG, pixelate-subject
+Secondary: Continuous-Monitoring, task-canopy, IACSLWrapper, Bundle_script (DMR³), RAG, Librery_Server, doc-tools, Video-Editor
 
-Web: Librery_Server, sqwash-pdf
-
-Utilities: doc-tools, Video-Editor
-
-Removed: call-me-maybe, kama-knights, python-idea-training
-
-No GitHub link (private): Continuous-Monitoring, task-canopy, IACSLWrapper, Bundle_script, RAG, doc-tools
+No GitHub link (private / NDA): Continuous-Monitoring, task-canopy, IACSLWrapper, Bundle_script, RAG, doc-tools

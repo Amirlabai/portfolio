@@ -23,7 +23,11 @@ Optional: rename the repo to `Amirlabai.github.io` for https://amirlabai.github.
 |------|---------|
 | `index.html` | English page |
 | `he.html` | Hebrew page (`dir="rtl"`) |
-| `style.css` | Shared layout and card grid |
+| `style.css` | Shared layout, featured cards, compact project list |
+| `favicon.svg` | Site icon |
+| `images/` | Featured project previews and OG image |
+| `robots.txt` | Crawler rules |
+| `sitemap.xml` | Sitemap for search engines |
 
 ## Update projects
 

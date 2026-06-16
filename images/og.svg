@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Amir Labai portfolio">
+  <rect width="1200" height="630" fill="#0f1419"/>
+  <rect x="60" y="60" width="1080" height="510" rx="12" fill="#1a2332" stroke="#2a3544" stroke-width="2"/>
+  <text x="100" y="200" font-family="system-ui,sans-serif" font-size="64" font-weight="600" fill="#e8eaed">Amir Labai</text>
+  <text x="100" y="280" font-family="system-ui,sans-serif" font-size="32" fill="#9aa5b4">Industrial engineer who builds software</text>
+  <text x="100" y="360" font-family="system-ui,sans-serif" font-size="24" fill="#5b9fd4">Audit tools · Full-stack · AI-assisted development</text>
+</svg>

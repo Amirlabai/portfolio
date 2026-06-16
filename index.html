@@ -3,29 +3,66 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Amir Labai — Portfolio</title>
-  <meta name="description" content="Industrial engineer who builds software. Audit tools, web apps, and automation with AI-assisted development.">
+  <title>Amir Labai — Industrial Engineer &amp; Software Developer</title>
+  <meta name="description" content="Industrial engineer who builds software. Audit tools, full-stack web apps, and automation with AI-assisted development.">
+  <link rel="canonical" href="https://amirlabai.github.io/portfolio/">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Amir Labai — Portfolio">
+  <meta property="og:description" content="Industrial engineer who builds software. Audit tools, full-stack web apps, and automation with AI-assisted development.">
+  <meta property="og:url" content="https://amirlabai.github.io/portfolio/">
+  <meta property="og:image" content="https://amirlabai.github.io/portfolio/images/og.svg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Amir Labai — Portfolio">
+  <meta name="twitter:description" content="Industrial engineer who builds software. Audit tools, full-stack web apps, and automation with AI-assisted development.">
+  <meta name="twitter:image" content="https://amirlabai.github.io/portfolio/images/og.svg">
   <link rel="stylesheet" href="style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Amir Labai",
+    "jobTitle": "Industrial Engineering Student & Software Developer",
+    "url": "https://amirlabai.github.io/portfolio/",
+    "email": "amirlabay@gmail.com",
+    "sameAs": [
+      "https://github.com/Amirlabai",
+      "https://linkedin.com/in/amir-labay"
+    ],
+    "knowsAbout": ["Industrial Engineering", "Python", "React", "Audit Automation", "AI-assisted Development"]
+  }
+  </script>
 </head>
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
   <header>
     <div class="header-inner">
       <div>
         <h1>Amir Labai</h1>
-        <p class="tagline">Industrial engineer who builds software. IE training for process optimization and data analysis; AI-assisted development to ship audit tools, web apps, and automation faster.</p>
+        <p class="tagline">Industrial engineer who builds software.</p>
+        <p class="tagline-sub">Audit desktop tools, full-stack demos, and automation — grounded in process optimization and data analysis.</p>
       </div>
-      <nav class="nav-links" aria-label="Site links">
-        <a href="he.html" hreflang="he">עברית</a>
-        <a href="https://github.com/Amirlabai">GitHub</a>
-        <a href="https://linkedin.com/in/amir-labay">LinkedIn</a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+        <a class="btn-cta" href="#projects">View projects</a>
+        <span class="nav-links" aria-label="External links">
+          <a href="he.html" hreflang="he">עברית</a>
+          <a href="https://github.com/Amirlabai" rel="noopener noreferrer">GitHub</a>
+          <a href="https://linkedin.com/in/amir-labay" rel="noopener noreferrer">LinkedIn</a>
+        </span>
       </nav>
     </div>
   </header>
 
-  <main>
+  <main id="main">
     <section id="about">
       <h2>About</h2>
-      <p>I am a B.Sc. Industrial Engineering &amp; Management student (Data Science specialization) at Braude College. My background is in process improvement, supply-chain thinking, optimization, and data analysis — from manufacturing floor work and corporate planning to migrating audit tooling from VBA to Python.</p>
+      <p>I am a B.Sc. Industrial Engineering &amp; Management student (Data Science specialization) at Braude College, currently shipping audit desktop tools and full-stack demos alongside coursework.</p>
+      <p>My background is in process improvement, supply-chain thinking, optimization, and data analysis — from manufacturing floor work and corporate planning to migrating audit tooling from VBA to Python.</p>
       <p>I build desktop apps, web services, and automation that solve real operational problems. AI tools (Cursor agents, RAG, Gemini APIs) help me implement faster; industrial engineering training drives what to measure, what to optimize, and what is worth shipping.</p>
     </section>
 
@@ -41,107 +78,122 @@
     <section id="projects">
       <h2>Projects</h2>
 
-      <h3>Audit and enterprise</h3>
-      <div class="cards">
-        <article class="card">
-          <h4>Continuous Monitoring</h4>
-          <p>Period-over-period exception monitoring for CaseWare IDEA databases. Finds repeating and new exceptions across audit cycles.</p>
-          <div class="tags"><span class="tag">Python</span><span class="tag">PyWebView</span><span class="tag">IDEA</span></div>
-        </article>
-        <article class="card">
-          <h4>task-canopy</h4>
-          <p>Desktop project and task tracker with a three-level tree, routing links, CSV/HTML export, and Hebrew RTL UI.</p>
-          <div class="tags"><span class="tag">Python</span><span class="tag">PyWebView</span></div>
-        </article>
-        <article class="card">
-          <h4>IACSLWrapper</h4>
-          <p>Python integration for CaseWare IACS license management on Windows audit applications.</p>
-          <div class="tags"><span class="tag">Python</span><span class="tag">pythonnet</span></div>
-        </article>
-        <article class="card">
-          <h4>DMR³ (Bundle_script)</h4>
-          <p>IDEA macro launcher suite: business-day calculations, validation, anonymization, and multiprocessing on large datasets.</p>
-          <div class="tags"><span class="tag">Python</span><span class="tag">Tkinter</span><span class="tag">IDEA</span></div>
-        </article>
-      </div>
-
-      <h3>AI-assisted products</h3>
-      <div class="cards">
-        <article class="card">
-          <h4>ramadan-tournament</h4>
-          <p>Community tournament platform with scheduling, stats, and Gemini-generated Hebrew match summaries.</p>
-          <div class="tags"><span class="tag">React</span><span class="tag">Node</span><span class="tag">MongoDB</span><span class="tag">Gemini</span></div>
-          <div class="card-links">
-            <a href="https://github.com/Amirlabai/ramadan-tournament">GitHub</a>
-            <a href="https://ramadan-tournament-client.vercel.app">Live</a>
+      <h3>Featured</h3>
+      <div class="featured-cards">
+        <article class="card--featured">
+          <img src="images/ramadan-tournament.svg" alt="Ramadan Tournament community platform dashboard" width="1200" height="675" loading="lazy">
+          <div class="card-body">
+            <h4>ramadan-tournament</h4>
+            <p>Community tournament platform with scheduling, stats, and Gemini-generated Hebrew match summaries.</p>
+            <p class="outcome">Outcome: end-to-end tournament ops for community leagues with live scheduling and AI match recaps.</p>
+            <div class="tags"><span class="tag">React</span><span class="tag">Node</span><span class="tag">MongoDB</span><span class="tag">Gemini</span></div>
+            <div class="card-links">
+              <a href="https://github.com/Amirlabai/ramadan-tournament" rel="noopener noreferrer">GitHub</a>
+              <a href="https://ramadan-tournament-client.vercel.app" rel="noopener noreferrer">Live</a>
+            </div>
           </div>
         </article>
-        <article class="card">
-          <h4>iron-sight</h4>
-          <p>Real-time Israel alert map with clustering, trajectory vectors, and historical archive.</p>
-          <div class="tags"><span class="tag">React</span><span class="tag">Python</span><span class="tag">MongoDB</span></div>
-          <div class="card-links">
-            <a href="https://github.com/Amirlabai/iron-sight">GitHub</a>
-            <a href="https://iron-sight-drab.vercel.app/">Live</a>
+
+        <article class="card--featured">
+          <img src="images/iron-sight.svg" alt="Iron Sight real-time Israel alert map" width="1200" height="675" loading="lazy">
+          <div class="card-body">
+            <h4>iron-sight</h4>
+            <p>Real-time Israel alert map with clustering, trajectory vectors, and historical archive.</p>
+            <p class="outcome">Outcome: live alert visualization with clustering to reduce noise during high-volume events.</p>
+            <div class="tags"><span class="tag">React</span><span class="tag">Python</span><span class="tag">MongoDB</span></div>
+            <div class="card-links">
+              <a href="https://github.com/Amirlabai/iron-sight" rel="noopener noreferrer">GitHub</a>
+              <a href="https://iron-sight-drab.vercel.app/" rel="noopener noreferrer">Live</a>
+            </div>
           </div>
         </article>
-        <article class="card">
-          <h4>RAG</h4>
-          <p>Local knowledge base with ChromaDB and embeddings for grounding Cursor agent workflows on my own docs.</p>
-          <div class="tags"><span class="tag">Python</span><span class="tag">ChromaDB</span><span class="tag">LangChain</span></div>
-        </article>
-        <article class="card">
-          <h4>pixelate-subject</h4>
-          <p>Upload a photo, segment the subject with ML, and pixelate subject or background.</p>
-          <div class="tags"><span class="tag">FastAPI</span><span class="tag">rembg</span><span class="tag">Vite</span></div>
-          <div class="card-links"><a href="https://github.com/Amirlabai/pixelate-subject">GitHub</a></div>
-        </article>
-      </div>
 
-      <h3>Full-stack and web</h3>
-      <div class="cards">
-        <article class="card">
-          <h4>Community file library</h4>
-          <p>Campus file-sharing app: Flask API, Angular frontend, session auth, and admin approval workflows.</p>
-          <div class="tags"><span class="tag">Flask</span><span class="tag">Angular</span></div>
-          <div class="card-links"><a href="https://github.com/Amirlabai/Librery_Server">GitHub</a></div>
+        <article class="card--featured">
+          <img src="images/sqwash-pdf.svg" alt="sqwash-pdf before and after PDF flattening" width="1200" height="675" loading="lazy">
+          <div class="card-body">
+            <h4>sqwash-pdf</h4>
+            <p>Flatten PDFs by rasterizing pages — CLI, FastAPI backend, and static web UI.</p>
+            <p class="outcome">Outcome: flattens multi-layer PDFs for print and archival workflows via CLI or browser upload.</p>
+            <div class="tags"><span class="tag">FastAPI</span><span class="tag">PyMuPDF</span></div>
+            <div class="card-links">
+              <a href="https://github.com/Amirlabai/sqwash-pdf" rel="noopener noreferrer">GitHub</a>
+              <a href="https://sqwash-pdf.vercel.app" rel="noopener noreferrer">Live</a>
+            </div>
+          </div>
         </article>
-        <article class="card">
-          <h4>sqwash-pdf</h4>
-          <p>Flatten PDFs by rasterizing pages — CLI, FastAPI backend, and static web UI.</p>
-          <div class="tags"><span class="tag">FastAPI</span><span class="tag">PyMuPDF</span></div>
-          <div class="card-links">
-            <a href="https://github.com/Amirlabai/sqwash-pdf">GitHub</a>
-            <a href="https://sqwash-pdf.vercel.app">Live</a>
+
+        <article class="card--featured">
+          <img src="images/pixelate-subject.svg" alt="pixelate-subject ML segmentation and pixelation UI" width="1200" height="675" loading="lazy">
+          <div class="card-body">
+            <h4>pixelate-subject</h4>
+            <p>Upload a photo, segment the subject with ML, and pixelate subject or background.</p>
+            <p class="outcome">Outcome: privacy-friendly photo editing pipeline with FastAPI backend and Vite frontend.</p>
+            <div class="tags"><span class="tag">FastAPI</span><span class="tag">rembg</span><span class="tag">Vite</span></div>
+            <div class="card-links">
+              <a href="https://github.com/Amirlabai/pixelate-subject" rel="noopener noreferrer">GitHub</a>
+            </div>
           </div>
         </article>
       </div>
 
-      <h3>Developer utilities</h3>
-      <div class="cards">
-        <article class="card">
-          <h4>doc-tools</h4>
-          <p>Workspace document extraction, single-file reads, Moodle HTML parsing, and optional Chroma indexing for agents.</p>
-          <div class="tags"><span class="tag">Python</span><span class="tag">markitdown</span></div>
-        </article>
-        <article class="card">
-          <h4>Video-Editor</h4>
-          <p>Windows desktop app and headless CLI for FFmpeg video compress, scale, and join operations.</p>
-          <div class="tags"><span class="tag">Python</span><span class="tag">PyWebView</span><span class="tag">FFmpeg</span></div>
-          <div class="card-links"><a href="https://github.com/Amirlabai/Video-Editor">GitHub</a></div>
-        </article>
-      </div>
+      <details class="project-more">
+        <summary>All projects (8 more)</summary>
+        <ul class="project-list">
+          <li>
+            <h4>Continuous Monitoring</h4>
+            <p>Period-over-period exception monitoring for CaseWare IDEA databases.</p>
+            <div class="tags"><span class="tag">Python</span><span class="tag">PyWebView</span><span class="tag">IDEA</span><span class="tag tag--private">Private / NDA</span></div>
+          </li>
+          <li>
+            <h4>task-canopy</h4>
+            <p>Desktop project and task tracker with a three-level tree, routing links, and Hebrew RTL UI.</p>
+            <div class="tags"><span class="tag">Python</span><span class="tag">PyWebView</span><span class="tag tag--private">Private / NDA</span></div>
+          </li>
+          <li>
+            <h4>IACSLWrapper</h4>
+            <p>Python integration for CaseWare IACS license management on Windows audit applications.</p>
+            <div class="tags"><span class="tag">Python</span><span class="tag">pythonnet</span><span class="tag tag--private">Private / NDA</span></div>
+          </li>
+          <li>
+            <h4>DMR³ (Bundle_script)</h4>
+            <p>IDEA macro launcher suite: business-day calculations, validation, and anonymization on large datasets.</p>
+            <div class="tags"><span class="tag">Python</span><span class="tag">Tkinter</span><span class="tag">IDEA</span><span class="tag tag--private">Private / NDA</span></div>
+          </li>
+          <li>
+            <h4>RAG</h4>
+            <p>Local knowledge base with ChromaDB and embeddings for grounding Cursor agent workflows.</p>
+            <div class="tags"><span class="tag">Python</span><span class="tag">ChromaDB</span><span class="tag">LangChain</span><span class="tag tag--private">Private / NDA</span></div>
+          </li>
+          <li>
+            <h4>Community file library</h4>
+            <p>Campus file-sharing app: Flask API, Angular frontend, session auth, and admin approval workflows.</p>
+            <div class="tags"><span class="tag">Flask</span><span class="tag">Angular</span></div>
+            <div class="card-links"><a href="https://github.com/Amirlabai/Librery_Server" rel="noopener noreferrer">GitHub</a></div>
+          </li>
+          <li>
+            <h4>doc-tools</h4>
+            <p>Workspace document extraction, Moodle HTML parsing, and optional Chroma indexing for agents.</p>
+            <div class="tags"><span class="tag">Python</span><span class="tag">markitdown</span><span class="tag tag--private">Private / NDA</span></div>
+          </li>
+          <li>
+            <h4>Video-Editor</h4>
+            <p>Windows desktop app and headless CLI for FFmpeg video compress, scale, and join operations.</p>
+            <div class="tags"><span class="tag">Python</span><span class="tag">PyWebView</span><span class="tag">FFmpeg</span></div>
+            <div class="card-links"><a href="https://github.com/Amirlabai/Video-Editor" rel="noopener noreferrer">GitHub</a></div>
+          </li>
+        </ul>
+      </details>
     </section>
 
     <section id="skills">
       <h2>Skills</h2>
       <dl class="skills-grid">
         <dt>Programming</dt>
-        <dd>TypeScript, Node.js, React, Python (NumPy, Pandas, Tkinter), SQL, VBA</dd>
+        <dd><span class="skill-pills"><span class="tag">TypeScript</span><span class="tag">Node.js</span><span class="tag">React</span><span class="tag">Python</span><span class="tag">SQL</span><span class="tag">VBA</span></span></dd>
         <dt>Software</dt>
-        <dd>Vite, Vercel, Render, MS Office (Advanced Excel), SolidWorks</dd>
+        <dd><span class="skill-pills"><span class="tag">Vite</span><span class="tag">Vercel</span><span class="tag">Render</span><span class="tag">Excel</span><span class="tag">SolidWorks</span></span></dd>
         <dt>Data</dt>
-        <dd>MongoDB (Mongoose), Weka, Google Colab, Power BI</dd>
+        <dd><span class="skill-pills"><span class="tag">MongoDB</span><span class="tag">Weka</span><span class="tag">Google Colab</span><span class="tag">Power BI</span></span></dd>
         <dt>Languages</dt>
         <dd>Hebrew (native), English (high proficiency), Arabic (medium proficiency)</dd>
       </dl>
@@ -151,8 +203,8 @@
       <h2>Contact</h2>
       <p>
         <a href="mailto:amirlabay@gmail.com">amirlabay@gmail.com</a><br>
-        <a href="https://linkedin.com/in/amir-labay">linkedin.com/in/amir-labay</a><br>
-        <a href="https://github.com/Amirlabai">github.com/Amirlabai</a>
+        <a href="https://linkedin.com/in/amir-labay" rel="noopener noreferrer">linkedin.com/in/amir-labay</a><br>
+        <a href="https://github.com/Amirlabai" rel="noopener noreferrer">github.com/Amirlabai</a>
       </p>
     </section>
   </main>

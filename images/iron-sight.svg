@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title">
+  <title id="title">iron-sight alert map preview</title>
+  <rect width="1200" height="675" fill="#0a1628"/>
+  <circle cx="600" cy="340" r="220" fill="#142238" stroke="#2a3544" stroke-width="2"/>
+  <circle cx="520" cy="300" r="8" fill="#e85d5d"/>
+  <circle cx="640" cy="280" r="6" fill="#e85d5d" opacity="0.8"/>
+  <circle cx="580" cy="380" r="10" fill="#e85d5d" opacity="0.9"/>
+  <line x1="520" y1="300" x2="560" y2="260" stroke="#e85d5d" stroke-width="2" opacity="0.6"/>
+  <text x="80" y="80" font-family="system-ui,sans-serif" font-size="42" font-weight="600" fill="#e8eaed">Iron Sight</text>
+  <text x="80" y="125" font-family="system-ui,sans-serif" font-size="22" fill="#5b9fd4">Real-time alert map · Clustering · Archive</text>
+</svg>
