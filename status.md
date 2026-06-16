@@ -18,8 +18,8 @@
 
 ## Next steps
 
-- [ ] Confirm GitHub Pages enabled (Settings → Pages → main / root) if not already
-- [ ] Verify live URL after deploy: https://amirlabai.github.io/portfolio/
+- [x] GitHub Pages live at https://amirlabai.github.io/portfolio/ (verified 2026-06-16)
+- [x] Outbound GitHub and Live links verified
 - [ ] Replace SVG previews with real WebP screenshots from live demos when convenient
 - [ ] Optional: custom domain, resume PDF link
 
