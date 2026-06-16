@@ -7,6 +7,7 @@ GitHub Pages showcase for Amir Labai: industrial engineering student who builds 
 ## Architecture
 
 - Static site: `index.html` (EN), `he.html` (HE), `style.css`
+- Visual style: medium blue-gray palette, retro borders (2px), offset shadows, 4px radius; no JS
 - No JavaScript, no build pipeline
 - Language switch via header link between the two HTML files
 - SEO: `favicon.svg`, `robots.txt`, `sitemap.xml`, Open Graph + JSON-LD in both pages

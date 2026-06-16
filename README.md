@@ -4,7 +4,7 @@ Static bilingual portfolio for Amir Labai — industrial engineering background 
 
 ## Local preview
 
-Open `index.html` (English) or `he.html` (Hebrew) in a browser. No build step.
+Open `index.html` (English) or `he.html` (Hebrew) in a browser, or run `python -m http.server` from this folder. Asset paths are relative so local preview and GitHub Pages both work. No build step.
 
 ## Deploy to GitHub Pages
 
