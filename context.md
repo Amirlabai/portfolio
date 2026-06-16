@@ -23,5 +23,4 @@ https://amirlabai.github.io/portfolio/ (after Pages is enabled on `Amirlabai/por
 
 ## Conventions
 
-- Project links use GitHub remote names (e.g. `Librery_Server` for the campus file library)
-- Live demo links only where deployed (iron-sight, ramadan-tournament, sqwash-pdf)
+- Project links: public repos only (GitHub + Live where deployed); private repos listed without links

@@ -202,10 +202,6 @@ html[dir="rtl"] section ul {
   padding-left: 0;
 }
 
-html[dir="rtl"] .header-inner {
-  flex-direction: row-reverse;
-}
-
-html[dir="rtl"] .nav-links {
-  flex-direction: row-reverse;
+html[dir="rtl"] .header-inner > div {
+  text-align: right;
 }
