@@ -1,34 +1,36 @@
 # Portfolio (GitHub Pages)
 
-Static bilingual portfolio for Amir Labai — industrial engineering background and AI-assisted software projects.
+Static bilingual portfolio for Amir Labai — retro brutalist design, industrial engineering background, and AI-assisted software projects.
+
+## Stack
+
+- Static HTML + CSS (`index.html`, `he.html`, `style.css`)
+- No build step — deploy from `main` branch root
+- GitHub Pages at https://amirlabai.github.io/portfolio/
 
 ## Local preview
 
-Open `index.html` (English) or `he.html` (Hebrew) in a browser, or run `python -m http.server` from this folder. Asset paths are relative so local preview and GitHub Pages both work. No build step.
+Open `index.html` in a browser, or serve the folder:
+
+```bash
+npx --yes serve .
+```
 
 ## Deploy to GitHub Pages
 
-1. Create or use the repo `Amirlabai/portfolio` on GitHub.
-2. Push this folder to the `main` branch.
-3. In the repo: **Settings → Pages → Build and deployment**
+1. Push `main` with site files at repo root.
+2. **Settings → Pages → Build and deployment**
    - Source: **Deploy from a branch**
    - Branch: **main**, folder **/ (root)**
-4. After a minute or two, open: https://amirlabai.github.io/portfolio/
+3. Live URL: https://amirlabai.github.io/portfolio/
 
-Optional: rename the repo to `Amirlabai.github.io` for https://amirlabai.github.io/ (root URL).
+## Update content
 
-## Files
+- English: `index.html`
+- Hebrew: `he.html`
+- Styles: `style.css` (retro brutalism — hard borders, offset shadows)
+- CV: `amir-labai-cv.pdf` (header download button)
 
-| File | Purpose |
-|------|---------|
-| `index.html` | English page |
-| `he.html` | Hebrew page (`dir="rtl"`) |
-| `style.css` | Shared layout, featured cards, compact project list |
-| `favicon.svg` | Site icon |
-| `images/` | Featured project previews and OG image |
-| `robots.txt` | Crawler rules |
-| `sitemap.xml` | Sitemap for search engines |
+## Project previews
 
-## Update projects
-
-Edit project cards in both `index.html` and `he.html` so EN and HE stay in sync.
+Featured images in `images/` as WebP. Replace with real screenshots when convenient.

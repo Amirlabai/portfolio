@@ -20,6 +20,8 @@
   --header-height: 13rem;
   --header-gap: 1.25rem;
   --header-offset: calc(var(--header-height) + var(--header-gap));
+  --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-he: "Heebo", "Segoe UI", Arial, sans-serif;
 }
 
 *,
@@ -34,7 +36,7 @@ html {
 
 body {
   margin: 0;
-  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  font-family: var(--font-sans);
   background: var(--bg);
   color: var(--text);
   line-height: 1.6;
@@ -150,10 +152,7 @@ header h1 {
 }
 
 .nav-links {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.75rem 1.25rem;
-  font-size: 0.9rem;
+  display: contents;
 }
 
 .btn-cta {
@@ -472,6 +471,26 @@ html[dir="rtl"] section ul {
   padding-left: 0;
 }
 
+html[dir="rtl"] body {
+  font-family: var(--font-he);
+}
+
+html[dir="rtl"] header h1,
+html[dir="rtl"] section h2 {
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+html[dir="rtl"] section h3,
+html[dir="rtl"] .skills-grid dt {
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+html[dir="rtl"] .project-more summary::before {
+  font-weight: 700;
+}
+
 html[dir="rtl"] .header-inner > div {
   text-align: right;
 }
@@ -481,8 +500,11 @@ html[dir="rtl"] .skip-link {
   right: 16px;
 }
 
-html[dir="rtl"] .site-nav,
-html[dir="rtl"] .nav-links,
+html[dir="rtl"] .site-nav {
+  flex-direction: row;
+  direction: rtl;
+}
+
 html[dir="rtl"] .card-links,
 html[dir="rtl"] .tags,
 html[dir="rtl"] .skill-pills {
@@ -544,4 +566,30 @@ html[dir="rtl"] .project-more[open] summary::before {
   html {
     scroll-behavior: auto;
   }
+}
+
+/* Brutalist icon chips (devicons + GitHub SVG) */
+.nav-icon-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  padding: 0.2rem;
+  border: var(--retro-border);
+  border-radius: var(--retro-radius);
+  background: var(--bg-alt);
+  box-shadow: 1px 1px 0 var(--shadow);
+  text-decoration: none;
+  line-height: 0;
+}
+
+.nav-icon-btn:hover,
+.nav-icon-btn:focus-visible {
+  background: var(--surface);
+  text-decoration: none;
+}
+
+.btn-cta--cv {
+  font-size: 0.82rem;
 }

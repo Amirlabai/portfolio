@@ -2,28 +2,23 @@
 
 ## Completed
 
-- [x] `index.html` — English (Hero, About, How I work, Projects, Skills, Contact)
-- [x] `he.html` — Hebrew RTL mirror
-- [x] `style.css` — dark theme, retro borders/shadows (task-canopy pattern), bright contrast
-- [x] 12 project cards in 4 themes
-- [x] GitHub links only on public repos; private repos show description only
-- [x] IE + AI narrative in About and How I work
-- [x] README deploy instructions
-- [x] `context.md`
-- [x] Featured projects (4) with SVG previews, outcome lines, and compact list for remaining 8
-- [x] Sticky anchor nav, shortened hero
-- [x] SEO: favicon, OG/Twitter meta, canonical, JSON-LD, `robots.txt`, `sitemap.xml`
-- [x] Accessibility: skip link, focus-visible, lazy images, scoped link `aria-label`s, hreflang alternates
-- [x] NDA tags on private projects
+- [x] Reverted to static HTML/CSS (`index.html`, `he.html`, `style.css`)
+- [x] Bilingual EN/HE with RTL, hreflang, SEO meta, JSON-LD
+- [x] All sections (About, How I work, Projects, Skills, Contact)
+- [x] Retro brutalist CSS (hard borders, offset shadows, Heebo for Hebrew)
+- [x] Header: devicon GitHub/LinkedIn icons + CV download (`amir-labai-cv.pdf`)
+- [x] Featured project WebP previews in `images/`
+- [x] Removed Vite/React toolchain and gh-pages deploy workflow
 
 ## Next steps
 
-- [x] GitHub Pages live at https://amirlabai.github.io/portfolio/ (verified 2026-06-16)
-- [x] Outbound GitHub and Live links verified
-- [ ] Replace SVG previews with real WebP screenshots from live demos when convenient
-- [ ] Optional: custom domain, resume PDF link
+- [ ] Push to `main` and confirm GitHub Pages serves from `main` / root
+- [ ] If Pages was on `gh-pages`, switch back to **main / (root)**
+- [ ] Verify live: https://amirlabai.github.io/portfolio/ and `he.html`
+- [ ] Replace `amir-labai-cv.pdf` with real resume if still placeholder
+- [ ] Optional: swap WebP previews for live demo screenshots
 
-## Project list (v2)
+## Project list
 
 Featured: ramadan-tournament, iron-sight, sqwash-pdf, pixelate-subject
 

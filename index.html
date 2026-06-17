@@ -10,6 +10,9 @@
   <link rel="alternate" hreflang="he" href="https://amirlabai.github.io/portfolio/he.html">
   <link rel="alternate" hreflang="x-default" href="https://amirlabai.github.io/portfolio/">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Amir Labai - Portfolio">
   <meta property="og:description" content="Industrial engineer who builds software. Audit tools, full-stack web apps, and automation with AI-assisted development.">
@@ -52,11 +55,16 @@
         <a class="btn-cta" href="#projects">Projects</a>
         <a href="#skills">Skills</a>
         <a href="#contact">Contact</a>
-        <nav class="nav-links" aria-label="External links">
+        <span class="nav-links" role="group" aria-label="External links">
           <a href="he.html" hreflang="he" lang="he">עברית</a>
-          <a href="https://github.com/Amirlabai" rel="noopener noreferrer" aria-label="Amir Labai on GitHub">GitHub</a>
-          <a href="https://linkedin.com/in/amir-labay" rel="noopener noreferrer" aria-label="Amir Labai on LinkedIn">LinkedIn</a>
-        </nav>
+          <a href="amir-labai-cv.pdf" download class="btn-cta btn-cta--cv">Download CV</a>
+          <a href="https://github.com/Amirlabai" rel="noopener noreferrer" target="_blank" aria-label="Amir Labai on GitHub" class="nav-icon-btn">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="" width="18" height="18">
+          </a>
+          <a href="https://linkedin.com/in/amir-labay" rel="noopener noreferrer" target="_blank" aria-label="Amir Labai on LinkedIn" class="nav-icon-btn">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="" width="18" height="18">
+          </a>
+        </span>
       </nav>
     </div>
   </header>
@@ -84,7 +92,7 @@
       <h3>Featured</h3>
       <div class="featured-cards">
         <article class="card--featured">
-          <img src="images/ramadan-tournament.svg" alt="" width="1200" height="675">
+          <img src="images/ramadan-tournament.webp" alt="Ramadan Tournament platform preview" width="1200" height="675">
           <div class="card-body">
             <h4>ramadan-tournament</h4>
             <p>Community tournament platform with scheduling, stats, and Gemini-generated Hebrew match summaries.</p>
@@ -98,7 +106,7 @@
         </article>
 
         <article class="card--featured">
-          <img src="images/iron-sight.svg" alt="" width="1200" height="675">
+          <img src="images/iron-sight.webp" alt="Iron Sight alert map preview" width="1200" height="675">
           <div class="card-body">
             <h4>iron-sight</h4>
             <p>Real-time Israel alert map with clustering, trajectory vectors, and historical archive.</p>
@@ -112,7 +120,7 @@
         </article>
 
         <article class="card--featured">
-          <img src="images/sqwash-pdf.svg" alt="" width="1200" height="675" loading="lazy">
+          <img src="images/sqwash-pdf.webp" alt="Sqwash PDF flattening tool preview" width="1200" height="675" loading="lazy">
           <div class="card-body">
             <h4>sqwash-pdf</h4>
             <p>Flatten PDFs by rasterizing pages - CLI, FastAPI backend, and static web UI.</p>
@@ -126,7 +134,7 @@
         </article>
 
         <article class="card--featured">
-          <img src="images/pixelate-subject.svg" alt="" width="1200" height="675" loading="lazy">
+          <img src="images/pixelate-subject.webp" alt="Pixelate Subject photo privacy tool preview" width="1200" height="675" loading="lazy">
           <div class="card-body">
             <h4>pixelate-subject</h4>
             <p>Upload a photo, segment the subject with ML, and pixelate subject or background.</p>
